@@ -65,13 +65,29 @@ const COMIC = {
     },
     {
       id: "cap-02",
-      title: "Capítulo 2 — Continuará...",
+      title: "Capítulo 2 — Liberando al Dragón",
       pages: [
         "pages/cap-02/01.png",
-        "pages/cap-02/02.svg",
-        "pages/cap-02/03.svg",
-        "pages/cap-02/04.svg",
-        "pages/cap-02/05.svg"
+		"pages/cap-02/02.png",
+		"pages/cap-02/03.png",
+		"pages/cap-02/04.png",
+        "pages/cap-02/05.png",
+		"pages/cap-02/06.png",
+		"pages/cap-02/07.png",
+		"pages/cap-02/08.png",
+		"pages/cap-02/09.png",
+		"pages/cap-02/10.png",
+		"pages/cap-02/11.png",
+		"pages/cap-02/12.png",
+		"pages/cap-02/13.png",
+		"pages/cap-02/14.png",
+		"pages/cap-02/15.png",
+		"pages/cap-02/16.png",
+		"pages/cap-02/17.png",
+        "pages/cap-02/18.png",
+		"pages/cap-02/19.png",
+        "pages/cap-02/20.png",		
+        "pages/cap-02/21.png"
       ]
     }
   ]
