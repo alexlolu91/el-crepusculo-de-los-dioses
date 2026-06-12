@@ -255,15 +255,20 @@
   // ---------------------------------------------------------
   // Pantalla completa
   // ---------------------------------------------------------
-  function toggleFullscreen() {
-    if (!document.fullscreenElement) {
-      //document.documentElement.requestFullscreen?.().catch(() => {});
-	  els.reader.requestFullscreen?.().catch(() => {});
-	document.body.classList.add("is-reader-fullscreen");
-    } else {
-      document.exitFullscreen?.();
-    }
-  }
+	function toggleFullscreen() {
+	  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+	  if (isMobile) {
+		document.body.classList.toggle("is-reader-fullscreen");
+		return;
+	  }
+
+	  if (!document.fullscreenElement) {
+		els.reader.requestFullscreen?.().catch(() => {});
+	  } else {
+		document.exitFullscreen?.();
+	  }
+	}
 
   // ---------------------------------------------------------
   // Gestos táctiles (deslizar)
