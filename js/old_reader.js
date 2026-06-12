@@ -38,7 +38,7 @@
     spreads: [],       // lista de vistas: cada una es un array de URLs
   };
 
-  const STORAGE_KEY = "comic-progress-v2";
+  const STORAGE_KEY = "comic-progress";
   const rtl = COMIC.readingDirection === "rtl";
 
   // ---------------------------------------------------------
@@ -257,9 +257,7 @@
   // ---------------------------------------------------------
   function toggleFullscreen() {
     if (!document.fullscreenElement) {
-      //document.documentElement.requestFullscreen?.().catch(() => {});
-	  els.reader.requestFullscreen?.().catch(() => {});
-	document.body.classList.add("is-reader-fullscreen");
+      document.documentElement.requestFullscreen?.().catch(() => {});
     } else {
       document.exitFullscreen?.();
     }
@@ -301,9 +299,6 @@
     els.zoneNext.addEventListener("click", next);
     els.zonePrev.addEventListener("click", prev);
     els.fullscreen.addEventListener("click", toggleFullscreen);
-	document.addEventListener("fullscreenchange", () => {
-  document.body.classList.toggle("is-reader-fullscreen", !!document.fullscreenElement);
-});
 
     els.select.addEventListener("change", (e) => {
       loadChapter(parseInt(e.target.value, 10), 0);
