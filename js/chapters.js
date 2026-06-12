@@ -67,6 +67,7 @@ const COMIC = {
       id: "cap-02",
       title: "Capítulo 2 — Liberando al Dragón",
       pages: [
+	    "pages/cap-02/00.png",
         "pages/cap-02/01.png",
 		"pages/cap-02/02.png",
 		"pages/cap-02/03.png",
