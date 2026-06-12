@@ -256,15 +256,8 @@
   // Pantalla completa
   // ---------------------------------------------------------
 	function toggleFullscreen() {
-	  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-
-	  if (isMobile) {
-		document.body.classList.toggle("is-reader-fullscreen");
-		return;
-	  }
-
 	  if (!document.fullscreenElement) {
-		els.reader.requestFullscreen?.().catch(() => {});
+		document.documentElement.requestFullscreen?.().catch(() => {});
 	  } else {
 		document.exitFullscreen?.();
 	  }

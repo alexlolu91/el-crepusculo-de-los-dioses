@@ -53,7 +53,6 @@ const COMIC = {
         "pages/cap-01/21.png",
         "pages/cap-01/22.png",
         "pages/cap-01/23.png",
-        "pages/cap-01/23.png",
         "pages/cap-01/24.png",
         "pages/cap-01/25.png",
         "pages/cap-01/26.png",
