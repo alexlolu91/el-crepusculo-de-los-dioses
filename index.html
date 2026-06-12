@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d0d12" />
+  <title>Mi Cómic</title>
+  <meta name="description" content="Lector de cómic online" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Barra superior -->
+  <header class="topbar">
+    <div class="topbar__left">
+      <h1 class="topbar__title" id="comicTitle">Mi Cómic</h1>
+    </div>
+
+    <div class="topbar__center">
+      <label class="visually-hidden" for="chapterSelect">Seleccionar capítulo</label>
+      <select id="chapterSelect" class="chapter-select" aria-label="Seleccionar capítulo"></select>
+    </div>
+
+    <div class="topbar__right">
+      <span class="page-counter" id="pageCounter" aria-live="polite">–</span>
+      <button class="icon-btn" id="fullscreenBtn" type="button" title="Pantalla completa" aria-label="Pantalla completa">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <path fill="currentColor" d="M4 9V4h5v2H6v3H4zm0 6h2v3h3v2H4v-5zm16 0v5h-5v-2h3v-3h2zM20 9h-2V6h-3V4h5v5z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Zona de lectura -->
+  <main class="reader" id="reader">
+    <!-- Zonas clicables para navegar -->
+    <button class="nav-zone nav-zone--prev" id="zonePrev" type="button" aria-label="Página anterior"></button>
+    <button class="nav-zone nav-zone--next" id="zoneNext" type="button" aria-label="Página siguiente"></button>
+
+    <!-- Flechas visibles -->
+    <button class="arrow arrow--prev" id="arrowPrev" type="button" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4-4.6-4.6z"/></svg>
+    </button>
+    <button class="arrow arrow--next" id="arrowNext" type="button" aria-label="Siguiente">
+      <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M8.6 7.4 10 6l6 6-6 6-1.4-1.4L13.2 12z"/></svg>
+    </button>
+
+    <!-- Contenedor de las páginas (lo rellena el JS) -->
+    <div class="stage" id="stage" aria-live="polite"></div>
+  </main>
+
+  <!-- Pantalla de carga / error -->
+  <div class="overlay" id="overlay" hidden>
+    <p id="overlayText"></p>
+  </div>
+
+  <script src="js/chapters.js"></script>
+  <script src="js/reader.js"></script>
+</body>
+</html>
