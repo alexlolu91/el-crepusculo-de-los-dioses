@@ -89,6 +89,36 @@ const COMIC = {
         "pages/cap-02/20.png",		
         "pages/cap-02/21.png"
       ]
+    },
+	    {
+      id: "cap-03",
+      title: "Capítulo 3 — Son solo negocios",
+      pages: [
+	    "pages/cap-03/00.png",
+        "pages/cap-03/01.png",
+		"pages/cap-03/02.png",
+		"pages/cap-03/03.png",
+		"pages/cap-03/04.png",
+        "pages/cap-03/05.png",
+		"pages/cap-03/06.png",
+		"pages/cap-03/07.png",
+		"pages/cap-03/08.png",
+		"pages/cap-03/09.png",
+		"pages/cap-03/10.png",
+		"pages/cap-03/11.png",
+		"pages/cap-03/12.png",
+		"pages/cap-03/13.png",
+		"pages/cap-03/14.png",
+		"pages/cap-03/15.png",
+		"pages/cap-03/16.png",
+		"pages/cap-03/17.png",
+        "pages/cap-03/18.png",
+		"pages/cap-03/19.png",
+        "pages/cap-03/20.png",		
+		"pages/cap-03/21.png",
+        "pages/cap-03/22.png",
+        "pages/cap-03/23.png"
+      ]
     }
   ]
 };
