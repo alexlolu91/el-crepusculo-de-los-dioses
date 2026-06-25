@@ -119,6 +119,44 @@ const COMIC = {
         "pages/cap-03/22.png",
         "pages/cap-03/23.png"
       ]
+    },
+		{
+      id: "cap-04",
+      title: "Capítulo 4 — Entre las sombras",
+      pages: [
+	    "pages/cap-04/00.png",
+        "pages/cap-04/01.png",
+		"pages/cap-04/02.png",
+		"pages/cap-04/03.png",
+		"pages/cap-04/04.png",
+        "pages/cap-04/05.png",
+		"pages/cap-04/06.png",
+		"pages/cap-04/07.png",
+		"pages/cap-04/08.png",
+		"pages/cap-04/09.png",
+		"pages/cap-04/10.png",
+		"pages/cap-04/11.png",
+		"pages/cap-04/12.png",
+		"pages/cap-04/13.png",
+		"pages/cap-04/14.png",
+		"pages/cap-04/15.png",
+		"pages/cap-04/16.png",
+		"pages/cap-04/17.png",
+        "pages/cap-04/18.png",
+		"pages/cap-04/19.png",
+        "pages/cap-04/20.png",		
+		"pages/cap-04/21.png",
+        "pages/cap-04/22.png",
+        "pages/cap-04/23.png",
+        "pages/cap-04/24.png",
+        "pages/cap-04/25.png",
+        "pages/cap-04/26.png",
+        "pages/cap-04/27.png",
+        "pages/cap-04/28.png",
+        "pages/cap-04/29.png",	
+        "pages/cap-04/30.png",
+        "pages/cap-04/31.png"		
+      ]
     }
   ]
 };
