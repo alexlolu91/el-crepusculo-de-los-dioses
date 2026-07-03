@@ -157,6 +157,38 @@ const COMIC = {
         "pages/cap-04/30.png",
         "pages/cap-04/31.png"		
       ]
+    },
+			{
+      id: "cap-05",
+      title: "Capítulo 5 — DEUS EX NATHAN",
+      pages: [
+	    "pages/cap-05/00.png",
+        "pages/cap-05/01.png",
+		"pages/cap-05/02.png",
+		"pages/cap-05/03.png",
+		"pages/cap-05/04.png",
+        "pages/cap-05/05.png",
+		"pages/cap-05/06.png",
+		"pages/cap-05/07.png",
+		"pages/cap-05/08.png",
+		"pages/cap-05/09.png",
+		"pages/cap-05/10.png",
+		"pages/cap-05/11.png",
+		"pages/cap-05/12.png",
+		"pages/cap-05/13.png",
+		"pages/cap-05/14.png",
+		"pages/cap-05/15.png",
+		"pages/cap-05/16.png",
+		"pages/cap-05/17.png",
+        "pages/cap-05/18.png",
+		"pages/cap-05/19.png",
+        "pages/cap-05/20.png",		
+		"pages/cap-05/21.png",
+        "pages/cap-05/22.png",
+        "pages/cap-05/23.png",
+        "pages/cap-05/24.png",
+        "pages/cap-05/25.png"		
+      ]
     }
   ]
 };
