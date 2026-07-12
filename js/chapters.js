@@ -189,6 +189,42 @@ const COMIC = {
         "pages/cap-05/24.png",
         "pages/cap-05/25.png"		
       ]
+    },
+	{
+      id: "cap-06",
+      title: "Capítulo 6 — Lobo con piel de oveja",
+      pages: [
+	    "pages/cap-06/00.png",
+        "pages/cap-06/01.png",
+		"pages/cap-06/02.png",
+		"pages/cap-06/03.png",
+		"pages/cap-06/04.png",
+        "pages/cap-06/05.png",
+		"pages/cap-06/06.png",
+		"pages/cap-06/07.png",
+		"pages/cap-06/08.png",
+		"pages/cap-06/09.png",
+		"pages/cap-06/10.png",
+		"pages/cap-06/11.png",
+		"pages/cap-06/12.png",
+		"pages/cap-06/13.png",
+		"pages/cap-06/14.png",
+		"pages/cap-06/15.png",
+		"pages/cap-06/16.png",
+		"pages/cap-06/17.png",
+        "pages/cap-06/18.png",
+		"pages/cap-06/19.png",
+        "pages/cap-06/20.png",		
+		"pages/cap-06/21.png",
+        "pages/cap-06/22.png",
+        "pages/cap-06/23.png",
+        "pages/cap-06/24.png",
+        "pages/cap-06/25.png",
+        "pages/cap-06/26.png",
+        "pages/cap-06/27.png",
+        "pages/cap-06/28.png",
+        "pages/cap-06/29.png"		
+      ]
     }
   ]
 };
