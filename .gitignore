@@ -12,3 +12,4 @@ desktop.ini
 
 # Dependencias (no se usan, pero por si acaso)
 node_modules/
+.DS_Store

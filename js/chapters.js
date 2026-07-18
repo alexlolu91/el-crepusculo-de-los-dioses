@@ -225,6 +225,33 @@ const COMIC = {
         "pages/cap-06/28.png",
         "pages/cap-06/29.png"		
       ]
+    },
+
+	{
+      id: "cap-07",
+      title: "Capítulo 7 — La Cura y el Pecado",
+      pages: [
+	    "pages/cap-07/00.png",
+        "pages/cap-07/01.png",
+		"pages/cap-07/02.png",
+		"pages/cap-07/03.png",
+		"pages/cap-07/04.png",
+        "pages/cap-07/05.png",
+		"pages/cap-07/06.png",
+		"pages/cap-07/07.png",
+		"pages/cap-07/08.png",
+		"pages/cap-07/09.png",
+		"pages/cap-07/10.png",
+		"pages/cap-07/11.png",
+		"pages/cap-07/12.png",
+		"pages/cap-07/13.png",
+		"pages/cap-07/14.png",
+		"pages/cap-07/15.png",
+		"pages/cap-07/16.png",
+		"pages/cap-07/17.png",
+        "pages/cap-07/18.png",
+		"pages/cap-07/19.png"	
+      ]
     }
   ]
 };
