@@ -252,6 +252,46 @@ const COMIC = {
         "pages/cap-07/18.png",
 		"pages/cap-07/19.png"	
       ]
+    },
+	{
+      id: "cap-08",
+      title: "Capítulo 8 — Empieza la Partida",
+      pages: [
+	    "pages/cap-08/00.png",
+        "pages/cap-08/01.png",
+		"pages/cap-08/02.png",
+		"pages/cap-08/03.png",
+		"pages/cap-08/04.png",
+        "pages/cap-08/05.png",
+		"pages/cap-08/06.png",
+		"pages/cap-08/07.png",
+		"pages/cap-08/08.png",
+		"pages/cap-08/09.png",
+		"pages/cap-08/10.png",
+		"pages/cap-08/11.png",
+		"pages/cap-08/12.png",
+		"pages/cap-08/13.png",
+		"pages/cap-08/14.png",
+		"pages/cap-08/15.png",
+		"pages/cap-08/16.png",
+		"pages/cap-08/17.png",
+        "pages/cap-08/18.png",
+		"pages/cap-08/19.png",
+        "pages/cap-08/20.png",		
+		"pages/cap-08/21.png",
+        "pages/cap-08/22.png",
+        "pages/cap-08/23.png",
+        "pages/cap-08/24.png",
+        "pages/cap-08/25.png",
+        "pages/cap-08/26.png",
+        "pages/cap-08/27.png",
+        "pages/cap-08/28.png",
+        "pages/cap-08/29.png",	
+        "pages/cap-08/30.png",
+        "pages/cap-08/31.png",
+        "pages/cap-08/32.png",	
+        "pages/cap-08/33.png"	
+      ]
     }
   ]
 };
