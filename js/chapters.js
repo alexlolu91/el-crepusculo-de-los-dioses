@@ -345,6 +345,53 @@ const COMIC = {
         "pages/cap-09/45.png",	
         "pages/cap-09/46.png"		
       ]
+    },
+	{
+      id: "cap-10",
+      title: "Capítulo 10 — Saliendo del Infierno",
+      pages: [
+	    "pages/cap-10/00.png",
+        "pages/cap-10/01.png",
+		"pages/cap-10/02.png",
+		"pages/cap-10/03.png",
+		"pages/cap-10/04.png",
+        "pages/cap-10/05.png",
+		"pages/cap-10/06.png",
+		"pages/cap-10/07.png",
+		"pages/cap-10/08.png",
+		"pages/cap-10/09.png",
+		"pages/cap-10/10.png",
+		"pages/cap-10/11.png",
+		"pages/cap-10/12.png",
+		"pages/cap-10/13.png",
+		"pages/cap-10/14.png",
+		"pages/cap-10/15.png",
+		"pages/cap-10/16.png",
+		"pages/cap-10/17.png",
+        "pages/cap-10/18.png",
+		"pages/cap-10/19.png",
+        "pages/cap-10/20.png",		
+		"pages/cap-10/21.png",
+        "pages/cap-10/22.png",
+        "pages/cap-10/23.png",
+        "pages/cap-10/24.png",
+        "pages/cap-10/25.png",
+        "pages/cap-10/26.png",
+        "pages/cap-10/27.png",
+        "pages/cap-10/28.png",
+        "pages/cap-10/29.png",	
+        "pages/cap-10/30.png",
+        "pages/cap-10/31.png",
+        "pages/cap-10/32.png",	
+        "pages/cap-10/33.png",
+        "pages/cap-10/34.png",
+        "pages/cap-10/35.png",
+        "pages/cap-10/36.png",
+        "pages/cap-10/37.png",
+        "pages/cap-10/38.png",
+        "pages/cap-10/39.png",
+        "pages/cap-10/40.png"		
+      ]
     }
   ]
 };
