@@ -445,6 +445,49 @@ const COMIC = {
         "pages/cap-11/45.png",	
         "pages/cap-11/46.png"		
       ]
+    },
+	{
+      id: "cap-12",
+      title: "Capítulo 12 — El cerezo en flor",
+      pages: [
+	    "pages/cap-12/00.png",
+        "pages/cap-12/01.png",
+		"pages/cap-12/02.png",
+		"pages/cap-12/03.png",
+		"pages/cap-12/04.png",
+        "pages/cap-12/05.png",
+		"pages/cap-12/06.png",
+		"pages/cap-12/07.png",
+		"pages/cap-12/08.png",
+		"pages/cap-12/09.png",
+		"pages/cap-12/10.png",
+		"pages/cap-12/11.png",
+		"pages/cap-12/12.png",
+		"pages/cap-12/13.png",
+		"pages/cap-12/14.png",
+		"pages/cap-12/15.png",
+		"pages/cap-12/16.png",
+		"pages/cap-12/17.png",
+        "pages/cap-12/18.png",
+		"pages/cap-12/19.png",
+        "pages/cap-12/20.png",		
+		"pages/cap-12/21.png",
+        "pages/cap-12/22.png",
+        "pages/cap-12/23.png",
+        "pages/cap-12/24.png",
+        "pages/cap-12/25.png",
+        "pages/cap-12/26.png",
+        "pages/cap-12/27.png",
+        "pages/cap-12/28.png",
+        "pages/cap-12/29.png",	
+        "pages/cap-12/30.png",
+        "pages/cap-12/31.png",
+        "pages/cap-12/32.png",	
+        "pages/cap-12/33.png",
+        "pages/cap-12/34.png",
+        "pages/cap-12/35.png",
+        "pages/cap-12/36.png"	
+      ]
     }
   ]
 };
